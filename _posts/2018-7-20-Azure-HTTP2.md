@@ -17,14 +17,12 @@ https://www.nartac.com/Products/IISCrypto
 
 How to fix it? 
 based on this document, you need to put those at the bottom of the list.
-# TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
-# TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
-# TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
-# TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
+TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
+TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+
 https://support.microsoft.com/en-us/help/4032720/how-to-deploy-custom-cipher-suite-ordering-in-windows-server-2016
 
 you can do it via powershell script here.
 https://github.com/NWebsec/NWebsec.AzureStartupTasks/blob/master/NWebsec.AzureStartupTasks/content/NWebsec.AzureStartupTasks/scripts/TLS_hardening.ps1
-
-
-
