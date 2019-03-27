@@ -1,0 +1,5 @@
+1.  Download iso from Ubuntu Desktop form [Ubuntu ](https://www.ubuntu.com/download)
+2.  Download Rufus from [Rufus](https://rufus.ie/)
+3.  Run Rufus and make USB  bootable( all the contents on USB will be wiped off, so back up USB first)
+4.  Change the boot sequence in Bios and boot from USB
+5.  Follow the installtion wizard and finish step by step.
